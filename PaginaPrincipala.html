@@ -9,18 +9,22 @@
 
 
 <div class="header">
-    <h2>Titlu citat</h2>
-    <p>Citat </p>
+    <img id="img_citat" src="citat_poza4.jpg">
 </div>
 
 <ul>
     <div class="meniu_text">
         <li><a class="active" href="#Acasa">Acasa</a></li>
         <li><a href="Exploreaza.html">Exploreaza</a></li>
-        <li onclick="scrollWin()"><a href="#contact">Contact</a></li>
+        <li onclick="scrollWin(0,2000)"><a href="#Stiri">Stiri</a></li>
+        <li onclick="scrollWin(0,6000)"><a href="#contact">Contact</a></li>
+        <li id="Library" onclick="scrollWin(0,1000)">  </li>
         <script>
-            function scrollWin() {
-                window.scrollTo(0,99999  );
+            function scrollWin(px1,px2){
+                window.scrollTo(px1,px2);
+            }
+            function scrollWinContact(px1,px2) {
+                window.scrollTo(px1,px2);
             }
         </script>
     </div>
@@ -36,6 +40,17 @@
     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
         et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
         repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+
+    <form id="search_form">
+
+        <input type="text" id="search" name="search"  />
+        <br><br>
+    </form>
+
+
+
+
     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
         et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
         repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>

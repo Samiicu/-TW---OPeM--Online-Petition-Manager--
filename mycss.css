@@ -1,6 +1,19 @@
 body {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
     font-size: 28px;
 }
+.top
+{
+    height: 100%;
+}
+
+
 
 ul {
 
@@ -8,10 +21,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    height: 80px;
 }
 
 li {
@@ -28,20 +42,135 @@ li a {
     text-decoration: none;
 }
 
+img.iconitaSearch:hover{
+background-image: url("searchIMG_V.png");
+}
+
 li a:hover {
-    background-color: #111;
+    background-color: #333;
 }
 
+li a:hover.active {
+    background-color: #333333;
+}
 .active {
-    background-color: #4CAF50;
+    background-color: #006411;
 
 }
-.main{
+
+.main {
     margin-left: 10%;
     margin-right: 10%;
 }
-.meniu_text{
+
+.meniu_text {
     margin-left: 10%;
+    margin-right: 10%;
+    font-size: 45px;
+
+}
+
+.iconitaSearch {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+#search {
+    float: right;
+    margin-bottom: 10px;
+
+}
+
+img#img_citat
+{
+   width: 100%;
+    height: 100%;
+}
+
+.header {
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+input[type=text] {
+
+    margin-left: 30%;
+    margin-right: 30%;
+    position: center;
+    float: right;
+
+    width: 40px;
+
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: white;
+    /*background-image: url('searchIMG.png');*/
+    background-size: 35px ;
+    background-position: right;
+
+    background-repeat: no-repeat;
+
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 3.4s ease-in-out;
+    transition: left ;
+    transition: width 1.4s ease-in-out;
+
 }
 
 
+input#search {
+    background-image: url('searchIMG.png');
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 50%;
+    text-indent: 20px;
+
+}
+input#search:first-of-type{
+    background-position: center;
+}
+input#search:end
+{background-position: right
+
+}
+#searchh:active {background-position: right;}
+
+input[type=text]:focus {
+
+
+    width: 30%;
+}
+form
+{
+
+    margin: auto;
+    position: center;
+
+}
+
+li#Library {
+    float: right;
+
+background-position: bottom;
+    background-image: url('searchIMG.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+li#Library:hover {
+    background-image: url('searchIMG_V.png');
+
+}
+
+/*#search_form{*/
+/*padding: 40px 40px 40px 40px;*/
+/*}*/

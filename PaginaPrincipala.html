@@ -5,33 +5,43 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="mycss.css">
 </head>
-<body>
 
 
-    <div class="header">
-        <img id="img_citat" src="citat_poza4e.jpg">
+<div class="header">
+    <img id="img_citat" src="poza_citat3.jpg">
+</div>
+<ul>
+    <div class="meniu_text">
+        <li><a class="active" href="PaginaPrincipala.html">Acasa</a></li>
+        <li><a href="Exploreaza.html">Exploreaza</a></li>
+        <li onclick="myFunctionStiri()"><a href="#Stiri">Stiri</a></li>
+        <li onclick="scrollWin(0,6000)"><a href="#contact">Contact</a></li>
+        <li id="Library" onclick="myFunctionSearch()"></li>
+        <script>
+            function scrollWin(px1, px2) {
+                window.scrollTo(px1, px2);
+            }
+
+            function scrollWinContact(px1, px2) {
+                window.scrollTo(px1, px2);
+            }
+        </script>
+        <script>
+            function myFunctionSearch() {
+                var elmnt = document.getElementById("search_form");
+                elmnt.scrollIntoView();
+            }
+        </script>
+        <script>
+            function myFunctionStiri() {
+                var elmnt = document.getElementById("stiri");
+                elmnt.scrollIntoView();
+            }
+        </script>
     </div>
 
-    <ul>
-        <div class="meniu_text">
-            <li><a class="active" href="PaginaPrincipala.html">Acasa</a></li>
-            <li><a href="Exploreaza.html">Exploreaza</a></li>
-            <li onclick="scrollWin(0,2000)"><a href="#Stiri">Stiri</a></li>
-            <li onclick="scrollWin(0,6000)"><a href="#contact">Contact</a></li>
-            <li id="Library" onclick="scrollWin(0,1000)"></li>
-            <script>
-                function scrollWin(px1, px2) {
-                    window.scrollTo(px1, px2);
-                }
-
-                function scrollWinContact(px1, px2) {
-                    window.scrollTo(px1, px2);
-                }
-            </script>
-        </div>
-
-    </ul>
-
+</ul>
+<body>
 
 <div class="main">
     <h3>Sticky Navigation Bar Example</h3>
@@ -44,125 +54,71 @@
 
 
     <form id="search_form">
-
+        <br><br><br><br>
         <input type="text" id="search" name="search"/>
-        <br><br>
+
     </form>
+    <br><br>
 
 
     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
         et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
         repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 
-    <h3>Sticky Navigation Bar Example</h3>
-    <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
-    <p><strong>Note:</strong> Internet Explorer, Edge 15 and earlier versions do not support sticky positioning. Safari
-        requires a -webkit- prefix.</p>
+    <div id="stiri">
+
+        <br><br>
+        <h3 style="margin-left: 2%; ">Noutati</h3>
+        <div class="wrapper">
+            <header class="header">A trecut de 90% din semnaturi</header>
+            <aside class="sidebar">99.000/100.000 voturi</aside>
+            <article class="content">
+                <h1>Aduceti Assault-ul inapoi in CS-GO</h1>
+                <p>Multumita celor ce au dat share si au invitat prietenii si cunostintele sa semneze aceasta petitie
+                    importanta</p>
+            </article>
+            <footer class="footer">Data stire:15.03.1900 toamana</footer>
+        </div>
+        <br><br>
+
+        <div class="wrapper">
+            <header class="header">Desi dragul nostru tribun nu mai este , semnaturile se strang</header>
+            <aside class="sidebar">55.000/100.000 voturi</aside>
+            <article class="content">
+                <h1>Corneliu Vadim Tudor presedinte</h1>
+                <p>Numarul mare de semnaturi arata aprecierea compatriotilor fata de Vadim</p>
+            </article>
+            <footer class="footer">Data stire:02.01.1970 toamana</footer>
+        </div>
+        <br><br>
 
 
-    <a class="petition-button" href="Petitie.html">START A PETITION NOW <img class="img-start-pet" src="laDreaptapng.png"> </a>
+        <div class="wrapper">
+            <header class="header">Desi dragul nostru tribun nu mai este , semnaturile se strang</header>
+            <aside class="sidebar">55.000/100.000 voturi</aside>
+            <article class="content">
+                <h1>Corneliu Vadim Tudor presedinte</h1>
+                <p>Numarul mare de semnaturi arata aprecierea compatriotilor fata de Vadim</p>
+            </article>
+            <footer class="footer">Data stire:02.01.1970 toamana</footer>
+        </div>
+        <br><br>
+    </div>
+    <!--<div class="wrapper">-->
+    <!--<header class="header">A trecut de 90% din semnaturi</header>-->
+    <!--<aside class="sidebar">99.000/100.000 voturi</aside>-->
+    <!--<article class="content">-->
+    <!--<h1>Aduceti Assault-ul inapoi in CS-GO</h1>-->
+    <!--<p>Multumita celor ce au dat share si au invitat prietenii si cunostintele sa semneze aceasta petitie importanta</p>-->
+    <!--</article>-->
+    <!--<footer class="footer">Data stire:15.03.1900 toamana</footer>-->
+    <!--</div>-->
 
 
+    <a class="petition-button" href="Petitie.html">START A PETITION NOW <img class="img-start-pet"
+                                                                             src="laDreaptapng.png"> </a>
 
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <h3>Sticky Navigation Bar Example</h3>
-    <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
-    <p><strong>Note:</strong> Internet Explorer, Edge 15 and earlier versions do not support sticky positioning. Safari
-        requires a -webkit- prefix.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <h3>Sticky Navigation Bar Example</h3>
-    <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
-    <p><strong>Note:</strong> Internet Explorer, Edge 15 and earlier versions do not support sticky positioning. Safari
-        requires a -webkit- prefix.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <h3>Sticky Navigation Bar Example</h3>
-    <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
-    <p><strong>Note:</strong> Internet Explorer, Edge 15 and earlier versions do not support sticky positioning. Safari
-        requires a -webkit- prefix.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
-        et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
-        repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque
         et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus
         repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>

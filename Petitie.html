@@ -3,28 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>Creare Petitie</title>
-    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <link rel="stylesheet" type="text/css" href="crearePetitie.css">
 </head>
 <body>
+
 <ul>
     <div class="meniu_text">
-        <li><a  href="PaginaPrincipala.html">Acasa</a></li>
+        <li><a class="active" href="PaginaPrincipala.html">Acasa</a></li>
         <li><a href="Exploreaza.html">Exploreaza</a></li>
-        <!--<li onclick="scrollWin(0,2000)"><a href="#Stiri">Stiri</a></li>-->
-        <!--<li onclick="scrollWin(0,6000)"><a href="#contact">Contact</a></li>-->
-        <li id="Library" onclick="scrollWin(0,1000)"></li>
-        <script>
-            function scrollWin(px1, px2) {
-                window.scrollTo(px1, px2);
-            }
 
-            function scrollWinContact(px1, px2) {
-                window.scrollTo(px1, px2);
-            }
-        </script>
     </div>
 
 </ul>
 
+<div class="fisa_petitie">
+    <h2 id="titlu">Creaza cea mai tare petitie!</h2>
+    <hr>
+    <br>
+    <div class="campuri">
+        <form>
+            Tipul petitiei<br>
+            <hr>
+            <input type="radio" name="type_of_petition" value="Politica" checked> Politica<br>
+            <input type="radio" name="type_of_petition" value="Sport"> Sport<br>
+            <input type="radio" name="type_of_petition" value="Societate"> Societate<br>
+            <input type="radio" name="type_of_petition" value="Societate">&nbsp;
+            <input type="text" name="other_type_of_petition">
+        </form>
+        <hr>
+        <br>
+
+
+        <form>
+            Titlu petitiei:<br>
+            <input name="textarea" id="titlu_petitie" pattern=".{6,}" placeholder=" "
+                   title="Introduce in titlu de cel putin sase litere" required>
+            <br>
+            <hr>
+            Descriere petiteie:<br>
+            <textarea name="textarea" id="descriere_petiteie" minlength="15" required title="Minim 15 carctere! "
+                      placeholder="Descrie petitia ce doresti sa o creezi"></textarea>
+            <br>
+            <hr>
+            Obiectiv:&nbsp;
+            <select id="obiectiv">
+                <option value="100">100</option>
+                <option value="1.000">1.000</option>
+                <option value="10.000">10.000</option>
+                <option value="100.000">100.000</option>
+                <option value="1.000.000">1.000.000</option>
+            </select>
+            <br>
+            <hr>
+            Tagurile petitie:<br>
+            <input type="text" id="taguri_petitie" name="taguri_petitie"
+                   placeholder="exemplu: #nume_tag1, #nume_tag2 "/>
+            <br>
+            <hr>
+            Numele si prenumele:<br>
+            <input type="text" name="firstname" id="nume_autor" placeholder="Popesc Ion">
+
+            <hr>
+            Email:<br>
+            <input type="email" id="email_petitie" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                   required title="Sase sau mai multe caractere">
+            <input type="submit" value="Send Request">
+        </form>
+        <br>
+        <hr>
+    </div>
+
+
+</div>
+
+
+<!--<div class="wrapper">-->
+
+<!--<div class="section1">-->
+<!--<h2>Creaza cea mai tare petitie!</h2>-->
+<!--<p>Introduceti Titlul petitie</p>-->
+
+<!--</div>-->
+<!--<div class="section2">-->
+<!--<p>How wonderfully patient is the cat when watching for rats or mice, awaiting their egress from their place of refuge or that which is their home! How well Shakespeare in Pericles, Act iii., describes this keen attention of the cat to its natural pursuit!</p>-->
+
+
+<!--</div>-->
+<!--<div class="section3">-->
+
+
+<!--<p>A slight rustle, and the fugitive comes forth; a quick, sharp, resolute motion, and the cat has proved its usefulness. Let any one have a plague of rats and mice, as I once had, and let them be delivered therefrom by cats, as I was, and they will-->
+<!--have a lasting and kind regard for them.</p>-->
+
+
+<!--</div>-->
+<!--<div class="box ad1">-->
+<!--<form><input style="height: 100%"></form>-->
+<!--</div>-->
+<!--<div class="box ad2">Another lovely advert!</div>-->
+
+<!--</div>-->
 </body>
 </html>

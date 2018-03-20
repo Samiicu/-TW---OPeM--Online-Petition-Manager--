@@ -5,14 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/PaginaPrincipala.html" line="11" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fccfde1-ea94-4adf-8293-a2a90dcbeb72" name="Default" comment="auto-size photo_moto">
-      <change beforePath="" afterPath="$PROJECT_DIR$/crearePetitie.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Exploreaza.html" afterPath="$PROJECT_DIR$/Exploreaza.html" />
-      <change beforePath="$PROJECT_DIR$/PaginaPrincipala.html" afterPath="$PROJECT_DIR$/PaginaPrincipala.html" />
-      <change beforePath="$PROJECT_DIR$/Petitie.html" afterPath="$PROJECT_DIR$/Petitie.html" />
-      <change beforePath="$PROJECT_DIR$/mycss.css" afterPath="$PROJECT_DIR$/mycss.css" />
-    </list>
+    <list default="true" id="3fccfde1-ea94-4adf-8293-a2a90dcbeb72" name="Default" comment="auto-size photo_moto" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +45,8 @@
       <file leaf-file-name="mycss.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mycss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="249" column="18" lean-forward="true" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -302,16 +295,15 @@
       <workItem from="1521485338628" duration="8650000" />
       <workItem from="1521547663590" duration="378000" />
       <workItem from="1521554085819" duration="529000" />
-      <workItem from="1521565102442" duration="19017000" />
+      <workItem from="1521565102442" duration="19279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61131000" />
+    <option name="totallyTimeSpent" value="61393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="456" width="835" height="587" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -675,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mycss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="249" column="18" lean-forward="true" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
           <folding />
         </state>
       </provider>

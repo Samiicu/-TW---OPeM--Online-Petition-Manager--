@@ -8,7 +8,7 @@ body {
     margin-right: 0px;
     font-size: 28px;
     color: #dc6405;
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color: #dcdcdc;
 
 }
 
@@ -19,7 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color:  #026670;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -61,7 +61,7 @@ li#Library {
 }
 
 .active {
-    background-color: #006411;
+    background-color: #FCE181;
 
 }
 
@@ -195,4 +195,37 @@ input#email_petitie
 select#obiectiv
 {
     font-size: 30px;
+}
+#subit_buton
+{
+    width: 100%;
+    padding: 10px 15px 11px ;
+    font-size: 30px ;
+    background-color: red;
+    font-weight: bold;
+
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #57D6C7;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.about_us
+{   color:#026670;
+  margin-left: 45%;
+margin-right: 45%;
+}
+
+span#email_about {
+    margin-left: 20%;
+    margin-right: 5%;
+}
+span#autori
+{
+    margin-left: 15%;
+    margin-right: 5%;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(235, 234, 234);
+    background-color: white;
     width: 100%;
     height: 100%;
 
@@ -8,12 +8,9 @@ body {
     margin-bottom: 0px;
     margin-right: 0px;
     font-size: 28px;
-    color: #4a4a49;
-
+    color: black;
 
 }
-
-
 
 ul {
 
@@ -42,7 +39,7 @@ li a {
     text-decoration: none;
 }
 
-img.iconitaSearch:hover{
+img.iconitaSearch:hover {
 
 }
 
@@ -54,13 +51,13 @@ li a:hover.active {
 
     background-color: #333333;
 }
+
 .active {
     background-color: #FCE181;
 
 }
 
 div.main {
-
 
     background: fixed;
     margin-left: 10%;
@@ -89,9 +86,8 @@ div.main {
 
 }
 
-img#img_citat
-{
-   width: 100%;
+img#img_citat {
+    width: 100%;
     height: 100%;
     max-height: 900px;
 }
@@ -119,18 +115,17 @@ input[type=text] {
     font-size: 30px;
     background-color: #EDEAE5;
     /*background-image: url('searchIMG.png');*/
-    background-size: 35px ;
+    background-size: 35px;
     background-position: right;
 
     background-repeat: no-repeat;
 
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 3.4s ease-in-out;
-    transition: left ;
+    transition: left;
     transition: width 1.4s ease-in-out;
 
 }
-
 
 input#search {
     background-image: url('searchIMG.png');
@@ -140,32 +135,37 @@ input#search {
     text-indent: 20px;
 
 }
-input#search:first-of-type{
+
+input#search:first-of-type {
     background-position: center;
 }
-input#search:end
-{background-position: right
+
+input#search:end {
+    background-position: right
 
 }
-#searchh:active {background-position: right;}
+
+#searchh:active {
+    background-position: right;
+}
 
 input[type=text]:focus {
 
-
     width: 30%;
 }
+
 /*form.*/
 /*{*/
 
-    /*margin: auto;*/
-    /*position: center;*/
+/*margin: auto;*/
+/*position: center;*/
 
 /*}*/
 
 li#Library {
     float: right;
 
-background-position: bottom;
+    background-position: bottom;
     background-image: url('searchIMG.png');
     background-repeat: no-repeat;
     background-size: 30px;
@@ -178,13 +178,11 @@ li#Library:hover {
 
 }
 
-
-
 .petition-button {
     padding: 26px 67px 24px 18px;
     position: relative;
-    background-color:#026670;
-    font-size: 25px;
+    background-color: #026670;
+    font-size: 50px;
     color: #ffffff;
     text-transform: uppercase;
     display: inline-block;
@@ -193,31 +191,28 @@ li#Library:hover {
     -moz-border-radius: 3px;
     border-radius: 3px;
     line-height: 18px;
-    -webkit-transition: all ease-in-out .5s;
-    -moz-transition: all ease-in-out .5s;
-    -ms-transition: all ease-in-out .5s;
-    -o-transition: all ease-in-out .5s;
-    transition: all ease-in-out .5s;
+
 }
+
 .img-start-pet {
     /*content: '';*/
-    margin-left: 14px;
+    margin-left: 30px;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
 
-    top: 14px;
+    top: 10px;
     right: 11px;
 }
 
 .wrapper {
     max-width: 75%;
 
-
     margin: 0 20px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 4px;
+    background-color: #c09f80;
 }
 
 @media screen and (min-width: 500px) {
@@ -247,13 +242,14 @@ li#Library:hover {
 }
 
 .wrapper > * {
-    background-color:#D8C3A5 ;
-    color: #8E8D8A;
+    background-color: white;
+    color: #4a4a49;
     border-radius: 5px;
     padding: 5px;
     font-size: 25px;
     /* needed for the floated layout*/
     margin-bottom: 10px;
+
 }
 
 /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
@@ -264,20 +260,36 @@ li#Library:hover {
     }
 }
 
-div#stiri
-{
+div#stiri {
     background-repeat: no-repeat;
     background: fixed;
-    background-color:#E85A4F ;
+    background-color: #76323F;
 
 }
 
+h3 {
+    color: white;
+}
+.about_us
+{   color:#026670;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+span#email_about {
+    margin-left: 20%;
+    margin-right: 5%;
+}
+span#autori
+{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+div.header_text
+{
+    background: fixed;
+    background-image: url(https://static.change.org/home/illustration-world-map-2015-08-18.gif);
+    font-size: 40px;
+}
 
 
-/*#stiri*/
-/*{*/
-    /*background-color: orange;*/
-/*}*/
-/*#search_form{*/
-/*padding: 40px 40px 40px 40px;*/
-/*}*/

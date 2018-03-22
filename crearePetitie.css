@@ -8,7 +8,7 @@ body {
     margin-right: 0px;
     font-size: 28px;
     color: #dc6405;
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color: #dcdcdc;
 
 }
 
@@ -19,7 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color:  #026670;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -61,7 +61,7 @@ li#Library {
 }
 
 .active {
-    background-color: #006411;
+    background-color: #FCE181;
 
 }
 
@@ -105,8 +105,8 @@ li#Library {
 }
 
 h2#titlu {
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 15%;
+    margin-left: 20%;
 }
 
 .section2 {
@@ -133,8 +133,8 @@ h2#titlu {
 }
 
 .campuri {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -153,8 +153,8 @@ input#titlu_petitie {
 
 textarea#descriere_petiteie {
     width: 100%;
-    height: 50px;
-    max-height: 200px;
+    height: 200px;
+    max-height: 400px;
     max-width: 100%;
     min-height: 60%;
     min-width: 100%;
@@ -196,3 +196,58 @@ select#obiectiv
 {
     font-size: 30px;
 }
+#subit_buton
+{
+    width: 100%;
+    padding: 10px 15px 11px ;
+    font-size: 25px ;
+    background-color: red;
+    font-weight: bold;
+
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #57D6C7;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.about_us {
+    display: inline;
+    color: #026670;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+p#about_main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p#email_about {
+    text-align: center;
+
+}
+
+p#autori {
+    text-align: center;
+    /*margin-right: 5%;*/
+}
+
+@media screen and (max-width: 700px)
+{
+    h2#titlu {
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    div.campuri{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    #subit_buton
+    {font-size: 15px ;}
+
+}
+

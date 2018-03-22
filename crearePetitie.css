@@ -215,6 +215,7 @@ select#obiectiv
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 .about_us {
+    text-align: center;
     display: inline;
     color: #026670;
     margin-left: 4%;

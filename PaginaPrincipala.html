@@ -4,46 +4,62 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="mycss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
 <div class="header">
     <img id="img_citat" src="poza_citat3.jpg" alt="Citat motivational.">
 </div>
-<div class="bg_meniu">
-<div >
-        <ul  class="meniu_text">
+<div class="bg_meniu" >
+    <div id="navbar" >
+        <a href="javascript:void(0)" ></a>
 
-            <li><a class="active" href="PaginaPrincipala.html">Acasa</a></li>
-            <li><a class="neactive" href="Exploreaza.html">Exploreaza</a></li>
-            <li class="neactive" onclick="myFunctionStiri()"><a class="neactive" href="#Noutati">Noutati</a></li>
-            <li class="neactive" onclick="scrollWin(0,6000)"><a class="neactive" href="#contact">Contact</a></li>
-            <li id="Library" onclick="myFunctionSearch()"></li>
-            <script>
-                function scrollWin(px1, px2) {
-                    window.scrollTo(px1, px2);
-                }
+        <a class="active" href="PaginaPrincipala.html">Acasa</a>
+        <a class="neactive" href="Exploreaza.html" >Exploreaza</a>
+        <a class="neactive" onclick="myFunctionStiri()" href="#Noutati">Noutati</a>
+        <a class="neactive" onclick="scrollWin(0,6000)" href="#contact">Contact</a>
+        <a id="Library" onclick="myFunctionSearch()"></a>
 
-                function scrollWinContact(px1, px2) {
-                    window.scrollTo(px1, px2);
+        <script>
+
+            window.onscroll = function () {
+                myFunction()
+            };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
                 }
-            </script>
-            <script>
-                function myFunctionSearch() {
-                    var elmnt = document.getElementById("search_form");
-                    elmnt.scrollIntoView();
-                }
-            </script>
-            <script>
-                function myFunctionStiri() {
-                    var elmnt = document.getElementById("stiri");
-                    elmnt.scrollIntoView();
-                }
-            </script>
+            }
+
+            function scrollWin(px1, px2) {
+                window.scrollTo(px1, px2);
+            }
+
+            function scrollWinContact(px1, px2) {
+                window.scrollTo(px1, px2);
+            }
 
 
-        </ul>
-</div>
+            function myFunctionSearch() {
+                var elmnt = document.getElementById("search_form");
+                elmnt.scrollIntoView();
+            }
+
+            function myFunctionStiri() {
+                var elmnt = document.getElementById("stiri");
+                elmnt.scrollIntoView();
+            }
+        </script>
+
+
+    </div>
 
 
 </div>

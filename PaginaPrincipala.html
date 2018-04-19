@@ -11,58 +11,59 @@
 <div class="header">
     <img id="img_citat" src="poza_citat3.jpg" alt="Citat motivational.">
 </div>
-<div class="bg_meniu" >
-    <div id="navbar" >
-        <a href="javascript:void(0)" ></a>
-
-        <a class="active" href="PaginaPrincipala.html">Acasa</a>
-        <a class="neactive" href="Exploreaza.html" >Exploreaza</a>
-        <a class="neactive" onclick="myFunctionStiri()" href="#Noutati">Noutati</a>
-        <a class="neactive" onclick="scrollWin(0,6000)" href="#contact">Contact</a>
-        <a id="Library" onclick="myFunctionSearch()"></a>
-
-        <script>
-
-            window.onscroll = function () {
-                myFunction()
-            };
-
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-
-            function scrollWin(px1, px2) {
-                window.scrollTo(px1, px2);
-            }
-
-            function scrollWinContact(px1, px2) {
-                window.scrollTo(px1, px2);
-            }
 
 
-            function myFunctionSearch() {
-                var elmnt = document.getElementById("search_form");
-                elmnt.scrollIntoView();
-            }
-
-            function myFunctionStiri() {
-                var elmnt = document.getElementById("stiri");
-                elmnt.scrollIntoView();
-            }
-        </script>
-
-
-    </div>
-
-
+<div class="navbar" id="myNavbar">
+    <a href="PaginaPrincipala.html" class="active">Acasa</a>
+    <a href="Exploreaza.html">Exploreaza</a>
+    <a onclick="myFunctionStiri()" >Noutati</a>
+    <a onclick="myFunctionContact()" >Contact</a>
+    <a id="Library" onclick="myFunctionSearch()"></a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+
+    function myFunctionSearch() {
+        var elmnt = document.getElementById("search_form");
+        elmnt.scrollIntoView();
+    }
+
+    function myFunctionStiri() {
+        var elmnt = document.getElementById("stiri");
+        elmnt.scrollIntoView();
+    }
+
+    function myFunctionContact() {
+        var elmnt = document.getElementById("about_text");
+        elmnt.scrollIntoView();
+    }
+
+    // window.onscroll = function () {
+    //     myFunction2()
+    //
+    // };
+    //
+    // var navbar = document.getElementById("myNavbar");
+    // var sticky = navbar.offsetTop;
+    // function myFunction2() {
+    //     if (window.pageYOffset >= sticky) {
+    //         navbar.classList.add("sticky")
+    //     } else {
+    //         navbar.classList.remove("sticky");
+    //     }
+    // }
+</script>
+
 
 <div class="main">
     <div class="header_text">
@@ -136,11 +137,11 @@
         <br><br>
     </div>
 
+<div>
+    <a class="petition-button" href="Petitie.html"><p>START A PETITION NOW <img class="img-start-pet"
+                                                                             src="laDreaptapng.png" alt=" "> </p></a>
 
-    <a class="petition-button" href="Petitie.html">START A PETITION NOW <img class="img-start-pet"
-                                                                             src="laDreaptapng.png" alt=" "> </a>
-
-
+</div>
 </div>
 <br>
 <hr>

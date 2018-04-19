@@ -5,11 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/Exploreaza.html" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fccfde1-ea94-4adf-8293-a2a90dcbeb72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaginaPrincipala.html" beforeDir="false" afterPath="$PROJECT_DIR$/PaginaPrincipala.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycss.css" beforeDir="false" afterPath="$PROJECT_DIR$/mycss.css" afterDir="false" />
-    </list>
+    <list default="true" id="3fccfde1-ea94-4adf-8293-a2a90dcbeb72" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PaginaPrincipala.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PaginaPrincipala.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PaginaPrincipala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+            <state relative-caret-position="346">
+              <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#a#4;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#3;n#html#0;n#!!top" expanded="true" />
@@ -63,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mycss.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mycss.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mycss.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="489">
-              <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
+              <caret line="490" column="17" selection-start-line="490" selection-start-column="17" selection-end-line="490" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -131,8 +127,8 @@
       <find>8px</find>
       <find>dcdc</find>
       <find>side</find>
-      <find>input</find>
       <find>avatar</find>
+      <find>input</find>
     </findStrings>
     <replaceStrings>
       <replace>Politica</replace>
@@ -160,8 +156,8 @@
         <option value="$PROJECT_DIR$/explo.css" />
         <option value="$PROJECT_DIR$/crearePetitie.css" />
         <option value="$PROJECT_DIR$/Petitie.html" />
-        <option value="$PROJECT_DIR$/PaginaPrincipala.html" />
         <option value="$PROJECT_DIR$/mycss.css" />
+        <option value="$PROJECT_DIR$/PaginaPrincipala.html" />
       </list>
     </option>
   </component>
@@ -335,7 +331,7 @@
       <workItem from="1521696462294" duration="12500000" />
       <workItem from="1521709155521" duration="1695000" />
       <workItem from="1521715535644" duration="632000" />
-      <workItem from="1524154123341" duration="14011000" />
+      <workItem from="1524154123341" duration="14306000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;retusare pagina principala&quot;">
       <created>1524166521676</created>
@@ -348,7 +344,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111159000" />
+    <option name="totallyTimeSpent" value="111454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -795,16 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exploreaza.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Petitie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -822,23 +808,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="490" column="17" selection-start-line="490" selection-start-column="17" selection-end-line="490" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exploreaza.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PaginaPrincipala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        <state relative-caret-position="346">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#a#4;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#3;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5653#5660#1" expanded="true" />
             <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="490" column="19" selection-start-line="490" selection-start-column="19" selection-end-line="490" selection-end-column="19" />
         </state>
       </provider>
     </entry>

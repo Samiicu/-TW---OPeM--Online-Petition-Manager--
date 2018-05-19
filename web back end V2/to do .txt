@@ -1,0 +1,7 @@
+-adauga data expirarii;
+-pagina de prezentare petities
+
+buton-trimite pe o pagina HTML
+buton-pdf-download
+
+

@@ -26,8 +26,7 @@
     <a href="exploreaza.jsp">Exploreaza</a>
     <a onclick="myFunctionStiri()" >Noutati</a>
     <a onclick="myFunctionContact()" >Contact</a>
-    <a id="Library" onclick="myFunctionSearch()"></a>
-    <a href="javascript:void(0);" style="font-size:23px;" class="icon" onclick="myFunction()">&#9776;</a>
+   
 </div>
 
 
@@ -87,11 +86,7 @@
         <!--<p>Pe aceasta pagina poti atat sa creezi o petitie, sa cauti o petitie cat si sa vezi petitiile ce sunt in tranding .</p>-->
 
 
-        <form id="search_form">
-            <br><br><br>
-            <input type="text" id="search" name="search"/>
-
-        </form>
+      
         <br><br>
 
 
